@@ -2,7 +2,8 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Simple-dijs by avighier</title>
+    <title>Simple Javascript Dependency Injection Container (DI) - SIMPLE-DIJS</title>
+    <meta name="description" content="Simple-dijs is a simple dependency injection (DI) component for Javascript, based on PHP Pimple">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -12,7 +13,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Simple-dijs</h1>
-      <h2 class="project-tagline">Simple Javascript DI</h2>
+      <h2 class="project-tagline">Simple Javascript Dependency Injection Container (DI) like Pimple</h2>
       <a href="https://www.npmjs.com/package/simple-dijs" class="btn">View on NPM</a>
       <a href="https://github.com/avighier/simple-dijs" class="btn">View on GitHub</a>
       <a href="https://github.com/avighier/simple-dijs/zipball/master" class="btn">Download .zip</a>
@@ -21,9 +22,18 @@
 
     <section class="main-content">
 
-<p>TDD devlopment with Pimple as sample. <a href="https://travis-ci.org/avighier/simple-dijs"><img src="https://travis-ci.org/avighier/simple-dijs.svg?branch=master" alt="Build Status"></a></p>
+    <h3>Simple-dijs is a simple Javascript Dependency Injection Container</h3>
 
-<p>Read the tests for documentation. You can also read the next presentation.</p>
+    <h4>Installation</h4>
+
+    <div class="highlight highlight-source-bash"><pre>
+    	npm install --save simple-dijs    </pre></div>
+
+	<h4>Browsers</h4>
+
+	<p>To use into browsers, please see <a href="http://browserify.org/">http://browserify.org/</a> or equivalent</p>
+
+	<h4>How to use</h4>
 
 <div class="highlight highlight-source-js"><pre>    <span class="pl-k">var</span> Di <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>simple-dijs<span class="pl-pds">'</span></span>);
     <span class="pl-k">var</span> di <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Di</span>();
@@ -87,12 +97,14 @@
         <span class="pl-c">// ...</span>
     });</pre></div>
 
-<p>Devlopment :</p>
+    <h4>Quality <a href="https://travis-ci.org/avighier/simple-dijs"><img src="https://travis-ci.org/avighier/simple-dijs.svg?branch=master" alt="Build Status"></a></h4>
 
-<ul>
-<li>npm test must return OK</li>
-<li>your code must be well tested</li>
-</ul>
+    <ul>
+    	<li>Code is checked by JSHINT</li>
+    	<li>Tests are written before code (TTD)</li>
+    	<li>Code coverage is 100%</li>
+    	<li>Please report issues on the <a href="https://github.com/avighier/simple-dijs/issues?q=is%3Aopen+is%3Aissue+label%3Abug">github project</a></li>
+    </ul>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/avighier/simple-dijs">Simple-dijs</a> is maintained by <a href="https://github.com/avighier">avighier</a>.</span>
